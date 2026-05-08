@@ -35,7 +35,7 @@ export default function Contact() {
             backgroundColor: 'var(--bg-card)',
             border: '1px solid var(--border)',
             borderRadius: 'var(--border-radius-md)',
-            padding: '32px',
+            padding: '35px',
             boxShadow: 'var(--shadow-sm)',
           }}>
             <h3 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '24px', display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -111,7 +111,7 @@ export default function Contact() {
           boxShadow: 'var(--shadow-sm)',
         }}>
           <h3 style={{ fontSize: '20px', fontWeight: '700', marginBottom: '24px' }}>Send Us a Message</h3>
-          
+
           <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }} className="form-row">
               <div>
