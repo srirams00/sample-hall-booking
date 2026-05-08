@@ -159,7 +159,7 @@ export default function Home() {
             display: 'flex',
             alignItems: 'center',
             boxShadow: 'var(--shadow-lg)',
-            maxWidth: '680px',
+            maxWidth: '682px',
             margin: '0 auto 48px',
             transition: 'all var(--transition-fast)',
           }}
