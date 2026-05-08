@@ -62,7 +62,7 @@ export default function Contact() {
                   color: 'var(--primary)',
                   backgroundColor: 'var(--primary-light)',
                   padding: '10px',
-                  borderRadius: '8px',
+                  borderRadius: '10px',
                   display: 'flex',
                 }}><Mail size={18} /></div>
                 <div>
