@@ -47,6 +47,7 @@ export default function BrowseHalls() {
       image: gardenImg,
       description: 'A breathtaking outdoor pavilion nestled in lush botanical gardens, illuminated by charming sunset lighting.',
     },
+
     {
       id: 4,
       name: 'Royal Banquet Suite',
@@ -70,7 +71,20 @@ export default function BrowseHalls() {
       type: 'Conference',
       image: conferenceImg,
       description: 'Premium, secure boardroom crafted for private leadership meetings, corporate seminars, and client pitches.',
-    }
+    },
+        {
+      id: 6,
+      name: 'tony masilan wedding hall',
+      location: 'Financial Plaza',
+      capacity: 500,
+      rating: 5,
+      reviews: 32000,
+      price: 120000,
+      type: 'Wedding hall',
+      image: conferenceImg,
+      description: 'Premium, secure boardroom crafted for private leadership meetings, corporate seminars, and client pitches.',
+    },
+    
   ];
 
   // Filtering Logic
