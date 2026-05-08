@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Building2, Phone, Mail, MapPin } from 'lucide-react';
 
 export default function Footer() {
