@@ -47,7 +47,7 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
           }}>
-            HallBooking
+            VenueHub
           </span>
         </Link>
 
@@ -66,8 +66,8 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
             color: 'var(--text-secondary)',
           }}>
             <li>
-              <NavLink 
-                to="/" 
+              <NavLink
+                to="/"
                 end
                 style={({ isActive }) => ({
                   color: isActive ? 'var(--primary)' : 'var(--text-secondary)',
@@ -96,8 +96,8 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
               </NavLink>
             </li>
             <li>
-              <NavLink 
-                to="/browse-halls" 
+              <NavLink
+                to="/browse-halls"
                 style={({ isActive }) => ({
                   color: isActive ? 'var(--primary)' : 'var(--text-secondary)',
                   fontWeight: isActive ? '600' : '500',
@@ -125,8 +125,8 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
               </NavLink>
             </li>
             <li>
-              <NavLink 
-                to="/about" 
+              <NavLink
+                to="/about"
                 style={({ isActive }) => ({
                   color: isActive ? 'var(--primary)' : 'var(--text-secondary)',
                   fontWeight: isActive ? '600' : '500',
@@ -154,8 +154,8 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
               </NavLink>
             </li>
             <li>
-              <NavLink 
-                to="/contact" 
+              <NavLink
+                to="/contact"
                 style={({ isActive }) => ({
                   color: isActive ? 'var(--primary)' : 'var(--text-secondary)',
                   fontWeight: isActive ? '600' : '500',
@@ -192,7 +192,7 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
           gap: '16px',
         }}>
           {/* Dark Mode Toggle */}
-          <button 
+          <button
             onClick={toggleDarkMode}
             style={{
               background: 'none',
@@ -221,8 +221,8 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
 
           {/* Login/Get Started */}
           <div style={{ display: 'none', gap: '12px', alignItems: 'center' }} className="desktop-actions">
-            <Link 
-              to="/login" 
+            <Link
+              to="/login"
               style={{
                 color: 'var(--text-secondary)',
                 fontWeight: '600',
@@ -248,7 +248,7 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
           </div>
 
           {/* Mobile Menu Toggle Button */}
-          <button 
+          <button
             onClick={() => setIsOpen(!isOpen)}
             style={{
               background: 'none',
@@ -293,9 +293,9 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
             fontSize: '16px',
           }}>
             <li>
-              <NavLink 
-                to="/" 
-                end 
+              <NavLink
+                to="/"
+                end
                 onClick={() => setIsOpen(false)}
                 style={({ isActive }) => ({ color: isActive ? 'var(--primary)' : 'var(--text-primary)' })}
               >
@@ -303,8 +303,8 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
               </NavLink>
             </li>
             <li>
-              <NavLink 
-                to="/browse-halls" 
+              <NavLink
+                to="/browse-halls"
                 onClick={() => setIsOpen(false)}
                 style={({ isActive }) => ({ color: isActive ? 'var(--primary)' : 'var(--text-primary)' })}
               >
@@ -312,8 +312,8 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
               </NavLink>
             </li>
             <li>
-              <NavLink 
-                to="/about" 
+              <NavLink
+                to="/about"
                 onClick={() => setIsOpen(false)}
                 style={({ isActive }) => ({ color: isActive ? 'var(--primary)' : 'var(--text-primary)' })}
               >
@@ -321,8 +321,8 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
               </NavLink>
             </li>
             <li>
-              <NavLink 
-                to="/contact" 
+              <NavLink
+                to="/contact"
                 onClick={() => setIsOpen(false)}
                 style={({ isActive }) => ({ color: isActive ? 'var(--primary)' : 'var(--text-primary)' })}
               >
@@ -334,8 +334,8 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
           <hr style={{ border: 0, borderTop: '1px solid var(--border)' }} />
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-            <Link 
-              to="/login" 
+            <Link
+              to="/login"
               onClick={() => setIsOpen(false)}
               style={{
                 textAlign: 'center',
@@ -349,8 +349,8 @@ export default function Navbar({ darkMode, toggleDarkMode }) {
             >
               Login
             </Link>
-            <Link 
-              to="/get-started" 
+            <Link
+              to="/get-started"
               onClick={() => setIsOpen(false)}
               className="btn-primary"
               style={{ justifyContent: 'center', textDecoration: 'none', padding: '12px' }}
