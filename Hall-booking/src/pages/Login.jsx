@@ -18,7 +18,7 @@ export default function Login() {
       alignItems: 'center',
       justifyContent: 'center',
       minHeight: 'calc(100vh - 150px)',
-      padding: '48px 24px',
+      padding: '50px 24px',
       width: '100%',
     }}>
       <div style={{
