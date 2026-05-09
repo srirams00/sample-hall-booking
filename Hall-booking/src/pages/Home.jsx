@@ -222,7 +222,7 @@ export default function Home() {
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
               <div style={{ color: 'var(--primary)' }}><Users size={16} /></div>
-              <span>10,000+ Happy Clients</span>
+              <span>20,000+ Happy Clients</span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
               <div style={{ color: 'var(--primary)', display: 'flex', alignItems: 'center' }}><Star size={16} fill="var(--primary)" /></div>
